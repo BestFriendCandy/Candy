@@ -9,6 +9,7 @@ public class Ttewst : MonoBehaviour
     void Start()
     {
         StartCoroutine(Test());
+        Debug.Log("hi");
     }
 
     IEnumerator Test()
